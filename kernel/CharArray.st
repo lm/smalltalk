@@ -648,15 +648,17 @@ accessing and manipulation methods for strings.'>
 	<category: 'converting'>
 	| stream ch |
 	stream := ReadStream on: self.
-	
+
+	stream peekFor: $-.
+
 	[stream atEnd ifTrue: [^true].
 	(ch := stream next) isDigit] whileTrue: [].
+
 	ch = $. ifFalse: [^false].
-	
-	[ch := stream next.
-	ch isDigit ifFalse: [^false].
-	stream atEnd] 
-		whileFalse.
+
+	[stream atEnd]
+		whileFalse: [stream next isDigit ifFalse: [^false]].
+
 	^true
     ]
 
