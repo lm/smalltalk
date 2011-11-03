@@ -5,18 +5,18 @@ $B->#noArg
 returned value is Getopt new "<0>"
 
 Execution begins...
-SortedCollection ('l' 'lo' 'lon' 'long' )
+SortedCollection ('l' 'lo' 'lon' 'long')
 'long'->#noArg
 returned value is Getopt new "<0>"
 
 Execution begins...
-SortedCollection ('longe' 'longer' 'longi' 'longis' 'longish' )
+SortedCollection ('longe' 'longer' 'longi' 'longis' 'longish')
 'longer'->#noArg
 'longish'->#noArg
 returned value is Getopt new "<0>"
 
 Execution begins...
-SortedCollection ('long' 'longe' 'longer' )
+SortedCollection ('long' 'longe' 'longer')
 'long'->#noArg
 'longer'->#noArg
 returned value is Getopt new "<0>"
@@ -38,13 +38,13 @@ $b->#noArg
 returned value is Getopt new "<0>"
 
 Execution begins...
-SortedCollection ('l' 'lo' 'lon' 'long' )
+SortedCollection ('l' 'lo' 'lon' 'long')
 $a->'long'
 'long'->#noArg
 returned value is Getopt new "<0>"
 
 Execution begins...
-SortedCollection ('l' 'lo' 'lon' 'long' 'v' 've' 'ver' 'very' 'very-' 'very-l' 'very-lo' 'very-lon' 'very-long' )
+SortedCollection ('l' 'lo' 'lon' 'long' 'v' 've' 'ver' 'very' 'very-' 'very-l' 'very-lo' 'very-lon' 'very-long')
 $a->'long'
 'long'->#noArg
 'very-long'->'long'

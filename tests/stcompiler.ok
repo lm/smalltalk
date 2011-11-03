@@ -32,8 +32,8 @@ Execution begins...
 'okay'
 'okay'
 now I'm testing 'Cascading'
-(true false nil 53 $a ByteArray (1 2 3 ) (1 2 3 ) {Smalltalk.Association} #perform: #perform:with: '
-Arrays... and multi-line strings' )
+(true false nil 53 $a ByteArray (1 2 3) (1 2 3) {Smalltalk.Association} #perform: #perform:with: '
+Arrays... and multi-line strings')
 and now blocks with parameters...
 'okay'
 [] in UndefinedObject>>executeStatements (a String:1)

@@ -194,16 +194,18 @@ twice, then I will report that that element has been stored twice.'>
 	"Put on aStream a representation of the receiver"
 
 	<category: 'printing'>
+	| first |
 	aStream
 	    nextPutAll: self class storeString;
 	    nextPut: $(.
+	first := true.
 	contents keysAndValuesDo: 
 		[:key :count | 
+		first ifTrue: [first := false] ifFalse: [aStream space].
 		aStream
 		    print: key;
 		    nextPut: $:;
-		    print: count;
-		    space].
+		    print: count].
 	aStream nextPut: $)
     ]
 

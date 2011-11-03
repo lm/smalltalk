@@ -101,22 +101,22 @@ Execution begins...
 returned value is 'xbxcx'
 
 Execution begins...
-returned value is '('abc' 'def' )'
+returned value is '('abc' 'def')'
 
 Execution begins...
-returned value is '('' 'abc' 'def' )'
+returned value is '('' 'abc' 'def')'
 
 Execution begins...
-returned value is '('a' 'b' 'c' )'
+returned value is '('a' 'b' 'c')'
 
 Execution begins...
-returned value is '('a' )'
+returned value is '('a')'
 
 Execution begins...
-returned value is '('a' )'
+returned value is '('a')'
 
 Execution begins...
-returned value is '('a' )'
+returned value is '('a')'
 
 Execution begins...
 returned value is 4

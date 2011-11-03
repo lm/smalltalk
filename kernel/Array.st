@@ -62,10 +62,11 @@ and general access behavior from SequenceableCollection.'>
 
 	<category: 'printing'>
 	aStream nextPut: $(.
-	self do: 
-		[:elt | 
-		elt printOn: aStream.
-		aStream space].
+	self
+		do: [:element |
+			element printOn: aStream]
+		separatedBy: [
+			aStream space].
 	aStream nextPut: $)
     ]
 

@@ -604,12 +604,14 @@ of objects.'>
 	"Print a representation of the receiver on aStream"
 
 	<category: 'printing'>
-	aStream nextPutAll: self class storeString.
-	aStream nextPutAll: ' ('.
-	self do: 
-		[:element | 
-		element printOn: aStream.
-		aStream space].
+	aStream
+		nextPutAll: self class storeString;
+		nextPutAll: ' ('.
+	self
+		do: [:element |
+			element printOn: aStream]
+		separatedBy: [
+			aStream space].
 	aStream nextPut: $)
     ]
 
